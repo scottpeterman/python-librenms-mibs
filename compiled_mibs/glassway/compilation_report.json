@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:47:54.714799",
+  "stats": {
+    "total": 7,
+    "compiled": 4,
+    "failed": 1,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "NSCRTV-HFCEMS-OPTICALAMPLIFIER-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

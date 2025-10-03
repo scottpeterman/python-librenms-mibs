@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T12:34:40.681354",
+  "stats": {
+    "total": 30,
+    "compiled": 21,
+    "failed": 2,
+    "skipped": 7,
+    "errors": [
+      {
+        "mib": "VMWARE-NSX-AGENTCAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "VMW-TUNNEL-SERVER-AGENTCAP-MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

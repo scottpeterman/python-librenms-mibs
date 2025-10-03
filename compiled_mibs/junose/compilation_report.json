@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-02T12:08:07.071479",
+  "stats": {
+    "total": 170,
+    "compiled": 145,
+    "failed": 10,
+    "skipped": 15,
+    "errors": [
+      {
+        "mib": "APS-MIB-JUNI",
+        "error": "failed"
+      },
+      {
+        "mib": "Juniper-Accounting-CONF",
+        "error": "failed"
+      },
+      {
+        "mib": "Juniper-ATM-1483-Profile-CONF",
+        "error": "failed"
+      },
+      {
+        "mib": "Juniper-Internet-CONF",
+        "error": "failed"
+      },
+      {
+        "mib": "DVMRP-STD-MIB-JUNI",
+        "error": "failed"
+      },
+      {
+        "mib": "Juniper-ACCOUNTING-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "Juniper-DVMRP-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "Juniper-Experiment",
+        "error": "unknown"
+      },
+      {
+        "mib": "Juniper-LICENSE-MIB",
+        "error": "unknown"
+      },
+      {
+        "mib": "Juniper-SUBSCRIBER-MIB",
+        "error": "unknown"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

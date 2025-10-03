@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-10-02T11:48:24.408382",
+  "stats": {
+    "total": 15,
+    "compiled": 0,
+    "failed": 15,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "HILLSTONE-DHCP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-DNS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-FAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-IF-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-IP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-IPSEC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-MODULE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-NTP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-POWER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-PRODUCTS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-SMI",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-STATISTICS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-SYSTEM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-TEMPERATURE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HILLSTONE-ZONE-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

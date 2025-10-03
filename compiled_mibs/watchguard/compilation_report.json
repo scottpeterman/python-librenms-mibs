@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T12:34:57.719656",
+  "stats": {
+    "total": 13,
+    "compiled": 10,
+    "failed": 1,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "WATCHGUARD-POLICY-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

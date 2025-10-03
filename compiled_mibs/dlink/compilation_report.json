@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-10-02T11:38:15.159687",
+  "stats": {
+    "total": 79,
+    "compiled": 70,
+    "failed": 5,
+    "skipped": 4,
+    "errors": [
+      {
+        "mib": "DLINKSW-DOT1X-EXT-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "DLINKSW-MAC-AUTH-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "DLINKSW-NETWORK-ACCESS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DLINKSW-SYSLOG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DLINKSW-WEB-AUTH-MIB",
+        "error": "unprocessed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

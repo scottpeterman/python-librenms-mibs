@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T12:20:21.966831",
+  "stats": {
+    "total": 7,
+    "compiled": 3,
+    "failed": 2,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "PAN-LC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "PAN-PRODUCTS-MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

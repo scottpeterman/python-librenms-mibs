@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+<title>Validation Report</title>
+<link rel='preconnect' href='https://cdn.jsdelivr.net'/>
+<script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif; margin:24px;}
+h1{margin:0 0 8px 0;} h2{margin-top:28px;} h3{margin-top:22px;}
+.meta{color:#555;margin-bottom:16px;}
+table{border-collapse:collapse;width:100%;margin-top:12px;}
+th,td{border:1px solid #ddd;padding:8px;vertical-align:top;}
+th{background:#f5f5f5;text-align:left;}
+tbody tr:nth-child(even){background:#fafafa;}
+.grid{display:grid;grid-template-columns:1fr;gap:24px;}
+@media(min-width:1000px){.grid{grid-template-columns:1fr 1fr;}}
+.card{padding:16px;border:1px solid #eee;border-radius:12px;box-shadow:0 1px 2px rgba(0,0,0,.05);}
+canvas{max-width:100%;height:460px;}
+.pill{display:inline-block;border:1px solid #ddd;border-radius:999px;padding:2px 10px;margin-right:8px;font-size:12px;color:#333;background:#fafafa;}
+</style>
+</head>
+<body>
+<h1>SNMP MIB Validation Report</h1>
+<div class='meta'>Generated: 2025-10-02T13:01:38.475043</div>
+<div><span class='pill'>Total vendors: 298</span> <span class='pill'>Total MIBs: 4242</span> <span class='pill'>Passed: 4130</span> <span class='pill'>Failed: 112</span> <span class='pill'>100% vendors: 271</span> <span class='pill'>90%+ vendors: 13</span> <span class='pill'>With failures: 27</span></div>
+<div class='grid' style='margin-top:24px;'>
+<div class='card'><h2>Top Vendors by MIB Coverage</h2><canvas id='chartTop'></canvas></div>
+<div class='card'><h2>Firewalls</h2><canvas id='chartFW'></canvas></div>
+<div class='card'><h2>Load Balancers / ADC</h2><canvas id='chartLB'></canvas></div>
+</div>
+<div class='grid' style='margin-top:24px;'>
+<div class='card'>
+<h2>Major Vendors (by total MIBs)</h2>
+<table>
+<thead><tr><th>Vendor</th><th>Total</th><th>Passed</th><th>Failed</th><th>Success</th></tr></thead>
+<tbody>
+<tr>
+<td>cisco</td>
+<td>302</td>
+<td>288</td>
+<td>14</td>
+<td>95.4%</td>
+</tr>
+<tr>
+<td>junos</td>
+<td>226</td>
+<td>226</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>comware</td>
+<td>205</td>
+<td>205</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>nokia</td>
+<td>201</td>
+<td>196</td>
+<td>5</td>
+<td>97.5%</td>
+</tr>
+<tr>
+<td>junose</td>
+<td>184</td>
+<td>184</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>enterasys</td>
+<td>134</td>
+<td>131</td>
+<td>3</td>
+<td>97.8%</td>
+</tr>
+<tr>
+<td>linksys</td>
+<td>108</td>
+<td>106</td>
+<td>2</td>
+<td>98.1%</td>
+</tr>
+<tr>
+<td>transition</td>
+<td>93</td>
+<td>80</td>
+<td>13</td>
+<td>86.0%</td>
+</tr>
+<tr>
+<td>ciena</td>
+<td>91</td>
+<td>91</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>dlink</td>
+<td>88</td>
+<td>87</td>
+<td>1</td>
+<td>98.9%</td>
+</tr>
+<tr>
+<td>dasan</td>
+<td>81</td>
+<td>80</td>
+<td>1</td>
+<td>98.8%</td>
+</tr>
+<tr>
+<td>adva</td>
+<td>70</td>
+<td>51</td>
+<td>19</td>
+<td>72.9%</td>
+</tr>
+<tr>
+<td>dell</td>
+<td>68</td>
+<td>68</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>extreme</td>
+<td>64</td>
+<td>61</td>
+<td>3</td>
+<td>95.3%</td>
+</tr>
+<tr>
+<td>brocade</td>
+<td>60</td>
+<td>60</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>radlan</td>
+<td>55</td>
+<td>53</td>
+<td>2</td>
+<td>96.4%</td>
+</tr>
+<tr>
+<td>hp</td>
+<td>47</td>
+<td>47</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>ibm</td>
+<td>47</td>
+<td>39</td>
+<td>8</td>
+<td>83.0%</td>
+</tr>
+<tr>
+<td>allied</td>
+<td>46</td>
+<td>46</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>arubaos</td>
+<td>46</td>
+<td>38</td>
+<td>8</td>
+<td>82.6%</td>
+</tr>
+<tr>
+<td>arubaos-cx</td>
+<td>46</td>
+<td>46</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>screenos</td>
+<td>46</td>
+<td>46</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>fortinet</td>
+<td>43</td>
+<td>43</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>siae</td>
+<td>40</td>
+<td>40</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>awplus</td>
+<td>39</td>
+<td>39</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>adtran</td>
+<td>37</td>
+<td>37</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>ericsson</td>
+<td>37</td>
+<td>37</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>mrv</td>
+<td>36</td>
+<td>36</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>calix</td>
+<td>35</td>
+<td>30</td>
+<td>5</td>
+<td>85.7%</td>
+</tr>
+<tr>
+<td>packetlight</td>
+<td>35</td>
+<td>35</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>hpmsm</td>
+<td>34</td>
+<td>34</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>ubiquoss</td>
+<td>32</td>
+<td>21</td>
+<td>11</td>
+<td>65.6%</td>
+</tr>
+<tr>
+<td>vmware</td>
+<td>32</td>
+<td>32</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>cambium</td>
+<td>31</td>
+<td>31</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>fs</td>
+<td>31</td>
+<td>31</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>arris</td>
+<td>30</td>
+<td>30</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>cdata</td>
+<td>26</td>
+<td>24</td>
+<td>2</td>
+<td>92.3%</td>
+</tr>
+<tr>
+<td>bluecoat</td>
+<td>25</td>
+<td>25</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>ruckus</td>
+<td>25</td>
+<td>25</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>benuos</td>
+<td>24</td>
+<td>24</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>telco-systems</td>
+<td>24</td>
+<td>24</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>zyxel</td>
+<td>24</td>
+<td>23</td>
+<td>1</td>
+<td>95.8%</td>
+</tr>
+<tr>
+<td>edgecos</td>
+<td>23</td>
+<td>23</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>juniper</td>
+<td>23</td>
+<td>22</td>
+<td>1</td>
+<td>95.7%</td>
+</tr>
+<tr>
+<td>nortel</td>
+<td>23</td>
+<td>23</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>eltexmes23xx</td>
+<td>21</td>
+<td>20</td>
+<td>1</td>
+<td>95.2%</td>
+</tr>
+<tr>
+<td>fibrolan</td>
+<td>20</td>
+<td>20</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>ruijie</td>
+<td>20</td>
+<td>20</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>tplink</td>
+<td>20</td>
+<td>20</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>eltexmes21xx</td>
+<td>19</td>
+<td>19</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+</tbody></table></div>
+<div class='card'>
+<h2>Firewalls</h2>
+<table>
+<thead><tr><th>Vendor</th><th>Total</th><th>Passed</th><th>Failed</th><th>Success</th></tr></thead>
+<tbody>
+<tr>
+<td>fortinet</td>
+<td>43</td>
+<td>43</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>watchguard</td>
+<td>15</td>
+<td>15</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>paloaltonetworks</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>sonicwall</td>
+<td>3</td>
+<td>3</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>checkpoint</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+</tbody></table></div>
+<div class='card'>
+<h2>Load Balancers / ADC</h2>
+<table>
+<thead><tr><th>Vendor</th><th>Total</th><th>Passed</th><th>Failed</th><th>Success</th></tr></thead>
+<tbody>
+<tr>
+<td>f5</td>
+<td>9</td>
+<td>9</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>radware</td>
+<td>6</td>
+<td>6</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>citrix</td>
+<td>3</td>
+<td>3</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>kemp</td>
+<td>3</td>
+<td>3</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>arraynetworks</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>100.0%</td>
+</tr>
+</tbody></table></div>
+</div>
+<script>
+const labelsTop = ["cisco","junos","comware","nokia","junose","enterasys","linksys","transition","ciena","dlink","dasan","adva","dell","extreme","brocade","radlan","hp","ibm","allied","arubaos","arubaos-cx","screenos","fortinet","siae","awplus","adtran","ericsson","mrv","calix","packetlight"];
+const totalsTop = [302,226,205,201,184,134,108,93,91,88,81,70,68,64,60,55,47,47,46,46,46,46,43,40,39,37,37,36,35,35];
+const ratesTop  = [95.36,100.0,100.0,97.51,100.0,97.76,98.15,86.02,100.0,98.86,98.77,72.86,100.0,95.31,100.0,96.36,100.0,82.98,100.0,82.61,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,85.71,100.0];
+const fwLabels  = ["fortinet","watchguard","paloaltonetworks","sonicwall","checkpoint"];
+const fwTotals  = [43,15,8,3,1];
+const fwRates   = [100.0,100.0,100.0,100.0,100.0];
+const lbLabels  = ["f5","radware","citrix","kemp","arraynetworks"];
+const lbTotals  = [9,6,3,3,1];
+const lbRates   = [100.0,100.0,100.0,100.0,100.0];
+
+function makeBarLineChart(canvasId, labels, barData, lineData, title){
+  const ctx = document.getElementById(canvasId).getContext('2d');
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [
+        { label: 'Total MIBs', data: barData, yAxisID: 'y' },
+        { label: 'Success %', data: lineData, type: 'line', yAxisID: 'y1' }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: title },
+        legend: { position: 'top' },
+        tooltip: { mode: 'index', intersect: false }
+      },
+      interaction: { mode: 'index', intersect: false },
+      scales: {
+        y: { beginAtZero: true, title: { display: true, text: 'Total MIBs' } },
+        y1: { beginAtZero: true, position: 'right', min: 0, max: 100, title: { display: true, text: 'Success %' }, grid: { drawOnChartArea: false } },
+        x: { ticks: { autoSkip: false, maxRotation: 60, minRotation: 0 } }
+      }
+    }
+  });
+}
+makeBarLineChart('chartTop', labelsTop, totalsTop, ratesTop, 'Top Vendors by Total & Success %');
+makeBarLineChart('chartFW',  fwLabels,  fwTotals,  fwRates,  'Firewalls: Total & Success %');
+makeBarLineChart('chartLB',  lbLabels,  lbTotals,  lbRates,  'Load Balancers / ADC: Total & Success %');
+
+</script>
+</body></html>

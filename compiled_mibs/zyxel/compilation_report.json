@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-02T12:36:09.902651",
+  "stats": {
+    "total": 22,
+    "compiled": 12,
+    "failed": 8,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "IES5206-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IES5206-TRAPS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ZYXEL-GS2200-24-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ZYXEL-GS4012F-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ZYXEL-MGS3712-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ZYXEL-PRESTIGE-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "ZYXEL-SAM1216",
+        "error": "failed"
+      },
+      {
+        "mib": "ZYXEL-ZYWALL-ZLD-COMMON-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-10-02T11:20:57.523035",
+  "stats": {
+    "total": 15,
+    "compiled": 4,
+    "failed": 7,
+    "skipped": 4,
+    "errors": [
+      {
+        "mib": "NMS-CARD-SYS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-CHASSIS",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-EPON-OLT-PON",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-FAN-TRAP",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-GPON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-OPTICAL-PORT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-POWER-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

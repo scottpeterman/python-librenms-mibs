@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-10-02T12:28:55.705421",
+  "stats": {
+    "total": 5,
+    "compiled": 0,
+    "failed": 5,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "SPECTRACOM-GLOBAL-REG-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "SPECTRACOM-NTP-V4-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "SPECTRACOM-PTP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "SPECTRACOM-PTPBASE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "SPECTRACOM-XSYNC-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

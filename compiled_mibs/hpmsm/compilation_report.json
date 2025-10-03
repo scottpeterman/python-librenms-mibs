@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T11:52:23.799285",
+  "stats": {
+    "total": 33,
+    "compiled": 27,
+    "failed": 2,
+    "skipped": 4,
+    "errors": [
+      {
+        "mib": "COLUBRIS-802DOT1X-ACCESS-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "COLUBRIS-802DOT11-MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

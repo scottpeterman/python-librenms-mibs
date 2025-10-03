@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T12:35:31.715166",
+  "stats": {
+    "total": 6,
+    "compiled": 4,
+    "failed": 2,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "WebGraph-8xThermometer-US-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "WebGraph-Thermo-Hygro-Barometer-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T11:23:42.127505",
+  "stats": {
+    "total": 21,
+    "compiled": 15,
+    "failed": 2,
+    "skipped": 4,
+    "errors": [
+      {
+        "mib": "CAMBIUM-PTP800-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "CAMBIUM-PTP800-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

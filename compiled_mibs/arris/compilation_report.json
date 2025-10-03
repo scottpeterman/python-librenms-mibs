@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-10-02T11:18:40.979507",
+  "stats": {
+    "total": 49,
+    "compiled": 21,
+    "failed": 22,
+    "skipped": 6,
+    "errors": [
+      {
+        "mib": "ARRIS-D5-ALARM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-CHANNEL-MODE-LOG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-DTI-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-DVB-EIS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-DVB-PSIG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-ENT-CHASSIS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-ENT-SENSOR-THRESH-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-IP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-LICENSE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-QAM-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-QAM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-QAM-POST-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-SLOT-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-SOFTWARE-MGR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-TEST-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-VIDEO-ERM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-VIDEO-IP-BUNDLE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-VIDEO-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-VIDEO-SESSION-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-VIDEO-VIF-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ARRIS-D5-WAN-POST-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DOCS-CABLE-DEVICE-TRAP-MIB",
+        "error": "unprocessed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T12:24:34.086122",
+  "stats": {
+    "total": 8,
+    "compiled": 5,
+    "failed": 1,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "RUIJIE-SYSTEM-MIB",
+        "error": "unprocessed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

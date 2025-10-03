@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:21:18.022793",
+  "stats": {
+    "total": 1,
+    "compiled": 0,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "BISON-ROUTER-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

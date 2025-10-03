@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-02T12:33:36.309926",
+  "stats": {
+    "total": 58,
+    "compiled": 16,
+    "failed": 37,
+    "skipped": 5,
+    "errors": [
+      {
+        "mib": "UBIQUOSS-10GEPON-PM-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-10GEPON-PON-MAC-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-10GEPON-PON-PROFILE-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-10GEPON-SERVICE-POLICY-GROUP-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "UBIQUOSS-10GEPON-SOFTWARE-MANAGEMENT-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-EPON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-EPON-ONTMANAGER-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-EPON-PM-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-EPON-PM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-EPON-PON-MAC-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-EPON-PON-PROFILE-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-EPON-SERVICE-POLICY-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-EPON-SOFTWARE-MANAGEMENT-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBIQUOSS-STP-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "UBIQUOSS-SWITCH-INTERFACE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-ACCESS-LIST-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-ARP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-AUTO-RESET-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-CFM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-CPU-MAC-FILTER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-DOT1BRIDGE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-ENTITY-ALARM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-ENTITY-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-ERPS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-INTERFACE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-MPLS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-MPLS-PW-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-MPLS-RSVP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-NTP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-OSPF-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-PB-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-PON-LAG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-QOS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-REDUNDANCY-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-SLD-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-SYSLOG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "UBQS-SYSTEM-ACCESS-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

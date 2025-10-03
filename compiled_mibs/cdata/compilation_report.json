@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-02T11:24:07.771412",
+  "stats": {
+    "total": 30,
+    "compiled": 17,
+    "failed": 8,
+    "skipped": 5,
+    "errors": [
+      {
+        "mib": "EDFA-oa-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "FD-PERFORMANCE-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "FD-SWITCH-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "FD-TRAP-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "NSCRTV-EPONEOC-MOD-EOC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NSCRTV-FTTX-EPON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NSCRTV-HFCEMS-OPTICALAMPLIFIER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NSCRTV-PON-TREE-EXT-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

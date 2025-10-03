@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:24:13.211653",
+  "stats": {
+    "total": 4,
+    "compiled": 1,
+    "failed": 1,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "MWRM-NETWORK-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

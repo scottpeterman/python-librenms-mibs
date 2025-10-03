@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:40:04.966828",
+  "stats": {
+    "total": 2,
+    "compiled": 1,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "ENLOGIC-PDU2-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

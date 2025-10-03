@@ -1,0 +1,896 @@
+{
+  "timestamp": "2025-10-02T12:00:02.782582",
+  "stats": {
+    "total": 232,
+    "compiled": 10,
+    "failed": 221,
+    "skipped": 1,
+    "errors": [
+      {
+        "mib": "HUAWEI-AAA-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ALARM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ALARM-RELIABILITY-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-APS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ASPF-EUDM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ATK-EUDM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ATK-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ATM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BASE-TRAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BFD-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BGP-ACCOUNTING-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BGP-GR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BGP-VPN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BLS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-COPS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-DPI-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-GRE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-IFNET-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-IPTN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-L2TP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-MULTICAST-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-MVLAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-PPPoX-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-QOS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-RADIUS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-RUI-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-SBC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-SRVCFG-DEVICE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-SRVCFG-EAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-SRVCFG-STATICUSER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-SRVCFGINTERFACE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-USERVLAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-VSM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BRAS-VT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-BULKSTAT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-CCC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-CDP-COMPLIANCE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-CE-PING-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-CLOCK-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-CONFIG-MAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-CPU-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-DAD-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-DATASYNC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-DC-TRAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-DEVICE-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-DEVICE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-DHCPR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-DHCPS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-DHCPV6-SERVER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-DISMAN-PING-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-DLDP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ENERGYMNGT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ENTITY-EXTENT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ENTITY-TRAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ENVIRONMENT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-EPON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ERPS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ERRORDOWN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ETHARP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ETHOAM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-EVC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-EVPN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-FCOE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-FLASH-MAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-FR-QOS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-FTP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-FWD-PAF-TRAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-FWD-RES-TRAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-GTL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-GTSM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-HGMP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-HQOS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-HTTP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-HWTACACS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-IF-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-IF-QOS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-IFIT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-IMA-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-INFOCENTER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-INNER-LINK-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-IPFPM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-IPHC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-IPMCAST-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-IPPOOL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-IPSESSION-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-IPV6-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ISIS-CONF-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-KEYCHAIN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-KOMPELLA-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-L2IF-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-L2MAM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-L2MULTICAST-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-L2TP-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-L2VLAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-L2VPN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-L3VLAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-L3VPN-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-LDT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-LI-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-LINE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-LLDP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-LOAD-BACKUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-LOOPDETECT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-M-LAG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MA5200-DEVICE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MA5200-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MAC-AUTHEN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MACBIND-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MACSEC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MASTERKEY-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MC-TRUNK-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MEMORY-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MFF-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MFLP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MGMD-STD-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MINM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MIRROR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MODULE-INFO-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MPLSLDP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MPLSLSR-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MPLSOAM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MPLSOAM-PS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MSDP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MSTP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-MULTICAST-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-NAT-EUDM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-NAT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-ND-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-NDB-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-NETCONF-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-NETSTREAM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-NTP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-NTP-TRAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-NVO3-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-OPENFLOW-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-OSPFV2-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-OSPFV3-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PERFMGMT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PERFORMANCE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PFLT-EUDM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PGI-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PIM-BSR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PIM-STD-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-POE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PORT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PORTAL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-POWER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PPP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PTP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PWE3-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-PWE3-TNL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-QINQ-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-RBRP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-RIPV2-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-RM-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-RPR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-RRPP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-RSVPTE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SECSTAT-EUDM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SECSTAT-IP-MONITOR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SECSTAT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SECURITY-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SECURITY-PKI-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SECURITY-STAT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SITE-MONITOR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SLOG-EUDM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SMAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SMARTLINK-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SNMP-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SNMP-NOTIFICATION-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SSH-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SSL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-STACK-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SUPERLAG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SWITCH-L2MAM-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SYS-CLOCK-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SYSLOG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-SZONE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-TAD-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-TASK-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-TC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-TCP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-TDM-PSN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-TRILL-CONF-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-TRNG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-TUNNEL-TE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-USERLOG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VBST-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VGMP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VLL-STATISTIC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VPLS-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VPLS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VPLS-TNL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VPN-DIAGNOSTICS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VRRP-EXT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-VS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WARRANTY-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-AP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-AP-RADIO-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-AP-SERVICE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-AP-UPDATE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-CAPWAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-CONFIGURATION-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-GLOBAL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-NPE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-SAC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-STATION-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-VAP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-WLAN-WIDS-SERVICE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-XPON-COMMON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HUAWEI-XPON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HWMUSA-DEV-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NQA-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "OPTIX-BOARD-MANAGE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "OPTIX-RTN-ODU-MGR-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

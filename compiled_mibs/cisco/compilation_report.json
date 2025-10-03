@@ -1,0 +1,84 @@
+{
+  "timestamp": "2025-10-02T11:30:33.371517",
+  "stats": {
+    "total": 270,
+    "compiled": 218,
+    "failed": 18,
+    "skipped": 34,
+    "errors": [
+      {
+        "mib": "CISCO-CLASS-BASED-QOS-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCO-DOCS-EXT-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCO-FRAME-RELAY-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCO-IETF-PW-FR-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCO-LWAPP-AP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "CISCO-LWAPP-DOT11-CLIENT-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCO-LWAPP-SYS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "CISCO-NS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "CISCO-UNIFIED-COMPUTING-COMPUTE-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCO-UNIFIED-COMPUTING-EQUIPMENT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "CISCO-UNIFIED-COMPUTING-MEMORY-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCO-UNIFIED-COMPUTING-PROCESSOR-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCO-UNIFIED-COMPUTING-STORAGE-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCO-UNIFIED-COMPUTING-TC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "CISCOSB-DNSCL-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCOSB-DOT1X-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "CISCOSB-RMON",
+        "error": "failed"
+      },
+      {
+        "mib": "CISCOSB-TUNNEL-MIB",
+        "error": "unprocessed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

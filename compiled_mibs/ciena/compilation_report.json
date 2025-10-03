@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-10-02T11:25:21.912729",
+  "stats": {
+    "total": 85,
+    "compiled": 66,
+    "failed": 7,
+    "skipped": 12,
+    "errors": [
+      {
+        "mib": "CIENA-CES-IP-INTERFACE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "CIENA-CES-TIME-SYNC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "WWP-LEOS-PORT-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "WWP-LEOS-PORT-XCVR-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "WWP-LEOS-SYSTEM-CONFIG-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "WWP-PRODUCTS-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "WWP-SMI",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

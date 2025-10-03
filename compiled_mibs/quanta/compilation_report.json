@@ -1,0 +1,228 @@
+{
+  "timestamp": "2025-10-02T12:22:10.056934",
+  "stats": {
+    "total": 61,
+    "compiled": 7,
+    "failed": 54,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "QUANTA-LB6M-REF-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-DOT1X-AUTHENTICATION-SERVER-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-DOT1X-ADVANCED-FEATURES-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "LAG-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-AUTHENTICATION-MANAGER-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-CAPTIVE-PORTAL-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-DCBX-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-DHCPSERVER-PRIVATE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-DHCPCLIENT-PRIVATE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-DENIALOFSERVICE-PRIVATE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-KEYING-PRIVATE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-LLPF-PRIVATE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-MGMT-SECURITY-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-VPC-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-MVR-PRIVATE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-PFC-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-PORTSECURITY-PRIVATE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-POWER-ETHERNET-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-QOS-COS-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-QOS-ISCSI-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-QOS-AUTOVOIP-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-OUTBOUNDTELNET-PRIVATE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-TIMERANGE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-TIMEZONE-PRIVATE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-UDLD-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-BGP-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-DNS-RESOLVER-CONTROL-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-INVENTORY-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-IPV6-LOOPBACK-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-IPV6-TUNNEL-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-ISDP-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-LOGGING-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-LOOPBACK-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-MULTICAST-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-NSF-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-ROUTE-POLICY-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-ROUTING-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-ROUTING6-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-SFLOW-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-SNTP-CLIENT-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-FIPSNOOPING-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-GREENETHERNET-PRIVATE-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "IEEE8021-PFC-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-MMRP-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-MRP-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-MVRP-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "PIM-BSR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NETGEAR-QOS-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-QOS-ACL-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-QOS-DIFFSERV-EXTENSIONS-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "NETGEAR-RADIUS-AUTH-CLIENT-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "SNMP-RESEARCH-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "TACACS-CLIENT-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "USM-TARGET-TAG-MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

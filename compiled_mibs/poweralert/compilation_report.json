@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T12:20:56.279319",
+  "stats": {
+    "total": 4,
+    "compiled": 2,
+    "failed": 2,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "TRIPPLITE-12X",
+        "error": "failed"
+      },
+      {
+        "mib": "TRIPPLITE-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

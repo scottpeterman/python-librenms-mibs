@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T12:25:02.642728",
+  "stats": {
+    "total": 1,
+    "compiled": 0,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "Vega-MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

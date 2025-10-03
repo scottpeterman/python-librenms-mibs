@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-10-02T12:19:07.095881",
+  "stats": {
+    "total": 23,
+    "compiled": 13,
+    "failed": 6,
+    "skipped": 4,
+    "errors": [
+      {
+        "mib": "RAPID-CITY",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "RAPID-CITY-BAY-STACK",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "RC-MLT-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "RC-VLAN-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "RC-VRF-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "SWPRIMGMT-MIB",
+        "error": "unprocessed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

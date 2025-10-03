@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T11:47:58.670751",
+  "stats": {
+    "total": 4,
+    "compiled": 2,
+    "failed": 2,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "GRANDSTREAM-GWN-PRODUCTS-SWITCH-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GS-HT8XX-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-10-02T11:13:57.696918",
+  "stats": {
+    "total": 7,
+    "compiled": 0,
+    "failed": 7,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "APRISAXE-EVENTS-4RF",
+        "error": "missing"
+      },
+      {
+        "mib": "APRISAXE-MIB-4RF",
+        "error": "missing"
+      },
+      {
+        "mib": "APRISAXE-TC-4RF",
+        "error": "missing"
+      },
+      {
+        "mib": "COMMON-4RF",
+        "error": "missing"
+      },
+      {
+        "mib": "COMMON-TC-4RF",
+        "error": "missing"
+      },
+      {
+        "mib": "MIB-4RF",
+        "error": "missing"
+      },
+      {
+        "mib": "PRODUCTS-MIB-4RF",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

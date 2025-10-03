@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T12:30:39.413912",
+  "stats": {
+    "total": 20,
+    "compiled": 14,
+    "failed": 2,
+    "skipped": 4,
+    "errors": [
+      {
+        "mib": "TPLINK-POWER-OVER-ETHERNET-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "TPLINK-SYSINFO-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

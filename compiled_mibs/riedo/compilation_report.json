@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T12:23:23.005205",
+  "stats": {
+    "total": 3,
+    "compiled": 2,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "NETTRACK-E3METER-CTR-SNMP-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

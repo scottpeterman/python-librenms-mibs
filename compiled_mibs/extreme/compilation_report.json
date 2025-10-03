@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:44:02.033525",
+  "stats": {
+    "total": 51,
+    "compiled": 45,
+    "failed": 1,
+    "skipped": 5,
+    "errors": [
+      {
+        "mib": "BROCADE-ACL-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

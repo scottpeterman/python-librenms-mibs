@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-10-02T10:09:10.221241",
+  "directory": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco",
+  "stats": {
+    "total": 302,
+    "passed": 288,
+    "failed": 14,
+    "errors": [
+      {
+        "mib": "CISCO-CEF-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCO-CEF-MIB.py' load error: ['Traceback (most recent call last):\\n', '  ..."
+      },
+      {
+        "mib": "CISCO-ENTITY-ALARM-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCO-ENTITY-ALARM-MIB.py' load error: ['Traceback (most recent call last)..."
+      },
+      {
+        "mib": "CISCO-SWITCH-ENGINE-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCO-SWITCH-ENGINE-MIB.py' load error: ['Traceback (most recent call last..."
+      },
+      {
+        "mib": "CISCOSB-BRIDGEMIBOBJECTS-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-BRIDGEMIBOBJECTS-MIB.py' load error: ['Traceback (most recent call..."
+      },
+      {
+        "mib": "CISCOSB-DHCP-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-DHCP-MIB.py' load error: ['Traceback (most recent call last):\\n', ..."
+      },
+      {
+        "mib": "CISCOSB-IPV6FHS-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-IPV6FHS-MIB.py' load error: ['Traceback (most recent call last):\\n..."
+      },
+      {
+        "mib": "CISCOSB-POLICY-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-POLICY-MIB.py' load error: ['Traceback (most recent call last):\\n'..."
+      },
+      {
+        "mib": "CISCOSB-QOS-CLI-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-QOS-CLI-MIB.py' load error: ['Traceback (most recent call last):\\n..."
+      },
+      {
+        "mib": "CISCOSB-QUEUE-STATISTICS-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-QUEUE-STATISTICS-MIB.py' load error: ['Traceback (most recent call..."
+      },
+      {
+        "mib": "CISCOSB-TRAPS-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-TRAPS-MIB.py' load error: ['Traceback (most recent call last):\\n',..."
+      },
+      {
+        "mib": "CISCOSB-Tuning",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-Tuning.py' load error: ['Traceback (most recent call last):\\n', ' ..."
+      },
+      {
+        "mib": "CISCOSB-rldot1q-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-rldot1q-MIB.py' load error: ['Traceback (most recent call last):\\n..."
+      },
+      {
+        "mib": "CISCOSB-vlan-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-vlan-MIB.py' load error: ['Traceback (most recent call last):\\n', ..."
+      },
+      {
+        "mib": "CISCOSB-vlanVoice-MIB",
+        "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-vlanVoice-MIB.py' load error: ['Traceback (most recent call last):..."
+      }
+    ]
+  }
+}

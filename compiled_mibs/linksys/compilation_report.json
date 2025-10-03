@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-10-02T12:10:18.204571",
+  "stats": {
+    "total": 80,
+    "compiled": 74,
+    "failed": 3,
+    "skipped": 3,
+    "errors": [
+      {
+        "mib": "LINKSYS-DNSCL-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "LINKSYS-MODEL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LINKSYS-TUNNEL-MIB",
+        "error": "unprocessed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-10-02T11:21:17.345828",
+  "stats": {
+    "total": 4,
+    "compiled": 0,
+    "failed": 3,
+    "skipped": 1,
+    "errors": [
+      {
+        "mib": "BIANCA-BRICK-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "BIANCA-BRICK-MIBRES-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "BINTEC-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

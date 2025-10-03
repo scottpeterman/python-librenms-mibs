@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-10-02T11:23:25.639057",
+  "stats": {
+    "total": 34,
+    "compiled": 20,
+    "failed": 11,
+    "skipped": 3,
+    "errors": [
+      {
+        "mib": "AE-ALARM-TABLE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "AE-PM-TABLE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "AE-VOICE-STATS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "CALIX-EOAM-EXT-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "E5-120-AS-ATM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "E5-120-IESCOMMON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "E5-120-TRAPS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "E5-121-AS-ATM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "E5-121-IESCOMMON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "E5-121-TRAPS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "E7-Calix-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

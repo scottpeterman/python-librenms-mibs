@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T12:23:26.680353",
+  "stats": {
+    "total": 5,
+    "compiled": 3,
+    "failed": 2,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "RIELLOMDU-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "RIELLOUPS-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

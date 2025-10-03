@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:47:18.869198",
+  "stats": {
+    "total": 2,
+    "compiled": 1,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "GEIST-MIB-V3",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T12:01:21.909197",
+  "stats": {
+    "total": 8,
+    "compiled": 7,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "CONEL-STATUS-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

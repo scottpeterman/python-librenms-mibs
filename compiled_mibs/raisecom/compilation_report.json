@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-10-02T12:23:10.160338",
+  "stats": {
+    "total": 16,
+    "compiled": 10,
+    "failed": 4,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "RAISECOM-FANMONITOR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "RAISECOM-OPTICAL-TRANSCEIVER-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "RAISECOM-PON-DEVICE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "RAISECOM-SYSTEM-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T12:26:16.890799",
+  "stats": {
+    "total": 48,
+    "compiled": 44,
+    "failed": 2,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "NETSCREEN-SET-ADMIN-USR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NETSCREEN-UAC-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

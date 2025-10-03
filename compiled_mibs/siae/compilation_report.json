@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-10-02T12:27:53.340636",
+  "stats": {
+    "total": 36,
+    "compiled": 29,
+    "failed": 0,
+    "skipped": 7,
+    "errors": []
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

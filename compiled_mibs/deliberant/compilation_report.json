@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:35:28.668890",
+  "stats": {
+    "total": 5,
+    "compiled": 4,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "DLB-RADIO3-DRV-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

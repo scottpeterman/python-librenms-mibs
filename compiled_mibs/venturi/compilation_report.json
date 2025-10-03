@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T12:33:53.513695",
+  "stats": {
+    "total": 9,
+    "compiled": 5,
+    "failed": 1,
+    "skipped": 3,
+    "errors": [
+      {
+        "mib": "FOURELLE-VENTURI2-MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

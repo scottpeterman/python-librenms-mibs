@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:14:01.657111",
+  "stats": {
+    "total": 1,
+    "compiled": 0,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "ABBMODULARUPS-MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

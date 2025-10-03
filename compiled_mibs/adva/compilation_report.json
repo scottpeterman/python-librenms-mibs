@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-02T11:17:02.598563",
+  "stats": {
+    "total": 56,
+    "compiled": 38,
+    "failed": 8,
+    "skipped": 10,
+    "errors": [
+      {
+        "mib": "ADVA-FSPR7-CFM-EXTENSION-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "AOS-CORE-CONDITION-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "AOS-CORE-FACILITY-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "F3-BFD-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "F3-BRIDGE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "F3-CONNECTGUARD-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "F3-FPM-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "F3-OSPF-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

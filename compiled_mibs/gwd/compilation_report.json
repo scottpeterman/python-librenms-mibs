@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:48:07.351947",
+  "stats": {
+    "total": 3,
+    "compiled": 1,
+    "failed": 1,
+    "skipped": 1,
+    "errors": [
+      {
+        "mib": "GW-EPON-DEV-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

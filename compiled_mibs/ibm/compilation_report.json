@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-10-02T12:01:07.632186",
+  "stats": {
+    "total": 49,
+    "compiled": 34,
+    "failed": 15,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "GPFS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IBM-3200-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IBM-BCM-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "IBM-CPS-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "IBM-Director-Alert-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IBM-ELAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IBM-FRAMERELAY-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "IBM-LAN-EMULATION-EXTENSION-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IBM-LES-BUS-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "IBM-LES-LECS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IBM-NetFinity-Text-Alert-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IBM-TS3500-MIBv1",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "IBM2210-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "IBMIROC-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "IBMIROCAUTH-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

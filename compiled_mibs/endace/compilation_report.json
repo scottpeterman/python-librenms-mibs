@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:40:01.150424",
+  "stats": {
+    "total": 11,
+    "compiled": 8,
+    "failed": 1,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "IPFIX-MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

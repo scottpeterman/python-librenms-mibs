@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-10-02T12:11:06.485216",
+  "stats": {
+    "total": 13,
+    "compiled": 10,
+    "failed": 3,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "MOXA-DEVICE-IO-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "MOXA-PORT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "MOXA-SYSTEM-INFO-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

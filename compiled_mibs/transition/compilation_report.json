@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-10-02T12:32:42.275655",
+  "stats": {
+    "total": 71,
+    "compiled": 58,
+    "failed": 8,
+    "skipped": 5,
+    "errors": [
+      {
+        "mib": "TN-ACCESS-MGMT-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "TN-MRP-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "TN-OTDR-MIB",
+        "error": "'int' object has no attribute 'replace'"
+      },
+      {
+        "mib": "TN-PRIVATE-VLAN-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "TN-RFC2544-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "TN-SA-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "TN-TC",
+        "error": "unknown"
+      },
+      {
+        "mib": "TN-XSTP-MIB",
+        "error": "unprocessed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

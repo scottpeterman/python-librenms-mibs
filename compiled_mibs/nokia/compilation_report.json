@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-02T12:18:04.272588",
+  "stats": {
+    "total": 250,
+    "compiled": 116,
+    "failed": 39,
+    "skipped": 95,
+    "errors": [
+      {
+        "mib": "TROPIC-OPTICALPORT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-APP-FINGERPRINT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-AUTO-FABRIC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-CAPMAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-DA-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-DCBX-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-DHL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-EVB-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-FIPS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-GLOBALROUTETABLE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-HA-VLAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-ISIS-SPB-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-MULTI-CHASSIS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-OPENFLOW-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-QCN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-VIRTUAL-CHASSIS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ALCATEL-IND1-VIRTUAL-FLOW-CONTROL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ASAM-ALARM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ASAM-EQUIP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ASAM-SYSTEM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ITF-MIB-EXT",
+        "error": "failed"
+      },
+      {
+        "mib": "PIM-BSR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1101",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1201",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1201BG",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1201H",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1201HL",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1201L",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1221",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1222",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1231",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1232",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1251",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1251D",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1321",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1322",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1361",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1361D",
+        "error": "failed"
+      },
+      {
+        "mib": "OAW-AP1362",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

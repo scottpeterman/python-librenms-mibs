@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T12:22:49.737027",
+  "stats": {
+    "total": 33,
+    "compiled": 30,
+    "failed": 1,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "RADLAN-DNSCL-MIB",
+        "error": "unprocessed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

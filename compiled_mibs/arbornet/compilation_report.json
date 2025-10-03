@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-10-02T11:17:51.569039",
+  "stats": {
+    "total": 4,
+    "compiled": 0,
+    "failed": 4,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "PEAKFLOW-DOS-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "PEAKFLOW-SP-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "PEAKFLOW-TMS-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "ARBOR-SMI",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

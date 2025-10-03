@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-10-02T12:01:45.101923",
+  "stats": {
+    "total": 14,
+    "compiled": 2,
+    "failed": 12,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "LUM-EQUIPMENT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LUM-IFBASIC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LUM-IFOTN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LUM-IFOTNMON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LUM-IFPERF-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LUM-IFPHYSICAL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LUM-INVENTORY-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "LUM-OA-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LUM-OCM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LUM-SYSINFO-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "LUM-SYSTEM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LUM-WDM-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

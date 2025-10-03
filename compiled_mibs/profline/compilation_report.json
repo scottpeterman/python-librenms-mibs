@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T12:21:30.837563",
+  "stats": {
+    "total": 2,
+    "compiled": 1,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "PROFLINE-SFD-MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

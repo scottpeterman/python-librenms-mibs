@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T11:30:36.284388",
+  "stats": {
+    "total": 4,
+    "compiled": 2,
+    "failed": 2,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "NS-ROOT-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

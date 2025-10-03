@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T12:27:59.574885",
+  "stats": {
+    "total": 3,
+    "compiled": 1,
+    "failed": 2,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "SN-MSPS-SCX200-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "TRAP-MIB",
+        "error": "unprocessed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

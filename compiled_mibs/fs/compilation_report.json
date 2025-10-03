@@ -1,0 +1,216 @@
+{
+  "timestamp": "2025-10-02T11:47:10.313210",
+  "stats": {
+    "total": 75,
+    "compiled": 17,
+    "failed": 51,
+    "skipped": 7,
+    "errors": [
+      {
+        "mib": "NMS-CARD-SYS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-CHASSIS",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-EPON-OLT-PON",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-FAN-TRAP",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-GPON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-OPTICAL-PORT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NMS-POWER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ERRP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "FS-AC-MGMT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "FS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "FS-SWITCH-V2-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "FS-SYSTEM-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "GARP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNDeviceOEM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNDevicePoe-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNDeviceStack-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNDeviceSwitch-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL2Dhcp6Snooping-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL2DhcpSnooping-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL2PortSecurity-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL2PppoePlus-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL2QACL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL2Switch-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL3DhcpRelay-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL3If-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL3Igmp-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL3IPPool-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL3Ospf-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL3PIM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL3Rip-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNL3RouteCommon-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNPlatformChassis-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNPlatformGNLink-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNPlatformOAM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNPlatformOAMMailalarm-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNPlatformOAMSntpClient-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNPlatformOAMSsh-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNPlatformOAMSyslog-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNPlatformOAMTelnet-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNServiceCM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNServiceMACAUTHEN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNServiceRADIUS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNServiceRMON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "GBNServiceTACACS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LAG-ARCH-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LLDPPRIVATE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "MAC-NOTIFICATION-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NSCRTV-EPON-IGMP-MGM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NSCRTV-EPON-SYSTEM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "PIM-BSR-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "STP-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

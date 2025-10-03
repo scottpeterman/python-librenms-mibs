@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T12:32:50.386595",
+  "stats": {
+    "total": 8,
+    "compiled": 5,
+    "failed": 2,
+    "skipped": 1,
+    "errors": [
+      {
+        "mib": "MCAFEE-ATD-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "TRELLIX-SENSOR-PERF-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

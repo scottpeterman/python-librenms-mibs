@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-10-02T11:33:42.057006",
+  "stats": {
+    "total": 6,
+    "compiled": 2,
+    "failed": 4,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "CTS-cvt_wac_wpc_mac_mpc3112-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IES-3110-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IPS-3110-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "IPS-3110-PB-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

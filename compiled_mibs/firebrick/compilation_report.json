@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:44:39.583314",
+  "stats": {
+    "total": 9,
+    "compiled": 7,
+    "failed": 1,
+    "skipped": 1,
+    "errors": [
+      {
+        "mib": "FIREBRICK-VOIP-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

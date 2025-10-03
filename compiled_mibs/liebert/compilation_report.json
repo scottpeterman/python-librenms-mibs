@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-10-02T12:08:38.542218",
+  "stats": {
+    "total": 12,
+    "compiled": 0,
+    "failed": 12,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "LIEBERT-GP-AGENT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LIEBERT-GP-CONDITIONS-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "LIEBERT-GP-CONTROLLER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LIEBERT-GP-ENVIRONMENTAL-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "LIEBERT-GP-FLEXIBLE-CONDITIONS-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "LIEBERT-GP-FLEXIBLE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LIEBERT-GP-NOTIFICATIONS-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "LIEBERT-GP-PDU-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LIEBERT-GP-POWER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LIEBERT-GP-REGISTRATION-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "LIEBERT-GP-SRC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "LIEBERT-GP-SYSTEM-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

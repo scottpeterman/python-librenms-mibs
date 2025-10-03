@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-10-02T11:35:15.112701",
+  "stats": {
+    "total": 82,
+    "compiled": 57,
+    "failed": 22,
+    "skipped": 3,
+    "errors": [
+      {
+        "mib": "DASAN-AUTORESET-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-BRIDGE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-DHCP-R-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-EPON-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-GEPON-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "DASAN-GIGABIT-OPTIC-TRANSCEIVER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-MCAST-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-NOTIFICATION",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-NOTIFICATION-V1",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "DASAN-QOS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-ROUTER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-SNMP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-THRESHOLD-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-TS-1000-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DASAN-USER-MANAGEMENT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "DPW-ATM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "SLE-MPLS-TP-BFD-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "SLE-MPLS-TP-NODE-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "SLE-MPLS-TP-PW-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "SLE-MPLS-TP-TUNNEL-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "SLE-MPLS-TP-VPLS-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "SLE-PERFORMANCEMGMT-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

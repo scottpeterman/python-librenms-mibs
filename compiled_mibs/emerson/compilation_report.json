@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-02T11:39:53.956130",
+  "stats": {
+    "total": 3,
+    "compiled": 1,
+    "failed": 2,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "EES-POWER-FERRO-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "NETSURE-MIB-004-A",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

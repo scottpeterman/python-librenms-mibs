@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:40:03.102263",
+  "stats": {
+    "total": 3,
+    "compiled": 2,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "TEMPUSLXUNISON-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

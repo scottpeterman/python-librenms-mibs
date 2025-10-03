@@ -1,0 +1,212 @@
+{
+  "timestamp": "2025-10-02T11:51:36.808342",
+  "stats": {
+    "total": 91,
+    "compiled": 36,
+    "failed": 50,
+    "skipped": 5,
+    "errors": [
+      {
+        "mib": "CONFIG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-AUTZ-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-DOT1X-EXTENSIONS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ENTITY-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-8023-RPTR",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-ARP-PROTECT",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-AUTORUN",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-BASIC",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-BRIDGE",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-CHAIN",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-CHASSIS",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-CONNECTION-RATE-FILTER",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-DOWNLOAD",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-FAULT-FINDER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-GENERIC-RPTR",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-GPPC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-INST-MON",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-IP-ROUTING",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-IPCONFIG",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-JUMBO-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-L3MAC-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-LINKTEST",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-MLD-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-OID",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-OSPF",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-PIM",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-POE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-PROVIDER-BRIDGE",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-RATE-LIMIT-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-RIP",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-SECURITY",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-SNMP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-STACK",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-TC",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-TRANSCEIVER-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-UDLD-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-UDP-FORWARD",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-USER-PROFILE-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-VG-RPTR",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-VRRP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-ICF-XRRP",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-SNTPclientConfiguration-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-STACK-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-SwitchStack-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-USER-AUTH",
+        "error": "failed"
+      },
+      {
+        "mib": "HP-VLAN",
+        "error": "failed"
+      },
+      {
+        "mib": "ICF-VG-RPTR",
+        "error": "failed"
+      },
+      {
+        "mib": "NETSWITCH-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "POWERSUPPLY-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "STATISTICS-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

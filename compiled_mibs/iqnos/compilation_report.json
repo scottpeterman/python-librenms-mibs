@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-10-02T12:02:07.494407",
+  "stats": {
+    "total": 7,
+    "compiled": 1,
+    "failed": 6,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "INFINERA-ENTITY-CHASSIS-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "INFINERA-PM-BANDCTP-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "INFINERA-PM-OCHCTP-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "INFINERA-PM-OSCCTP-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "INFINERA-PM-SCHCTP-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "INFINERA-TC-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

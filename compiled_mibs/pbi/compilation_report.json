@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T12:20:30.123188",
+  "stats": {
+    "total": 4,
+    "compiled": 3,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "PBI-4000P-5000P-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

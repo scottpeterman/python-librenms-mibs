@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-10-02T11:22:34.267265",
+  "stats": {
+    "total": 47,
+    "compiled": 31,
+    "failed": 3,
+    "skipped": 13,
+    "errors": [
+      {
+        "mib": "FOUNDRY-LAG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "FOUNDRY-SN-ARP-GROUP-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "FOUNDRY-SN-ROUTER-TRAP-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-10-02T11:20:01.991490",
+  "stats": {
+    "total": 31,
+    "compiled": 10,
+    "failed": 21,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "AcAlarm",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-ANALOG-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "AC-CONTROL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "AC-MEDIA-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "AC-ModularGW-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-PM-Analog-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-PM-ATM-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-PM-Control-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-PM-Media-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-PM-MediaServer-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-PM-PSTN-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-PM-SS7-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-PM-System-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-PSTN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "AC-QOS-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "AC-SS7-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "AC-SYSTEM-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "AUDIOCODES-TYPES-MIB",
+        "error": "missing"
+      },
+      {
+        "mib": "AC-V5-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "AcGateway",
+        "error": "failed"
+      },
+      {
+        "mib": "RTCPXR-MIB",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

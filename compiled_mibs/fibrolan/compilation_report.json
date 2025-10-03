@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-10-02T11:44:32.376725",
+  "stats": {
+    "total": 21,
+    "compiled": 15,
+    "failed": 4,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "FIBROLAN-MIB-DEVICECONVERTER",
+        "error": "missing"
+      },
+      {
+        "mib": "FIBROLAN-MIB-LTA41MA-V2",
+        "error": "missing"
+      },
+      {
+        "mib": "FIBROLAN-MIB-LTA41xE1-V2",
+        "error": "missing"
+      },
+      {
+        "mib": "FIBROLAN-MIB-METRO-STAR",
+        "error": "missing"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

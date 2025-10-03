@@ -1,0 +1,2874 @@
+{
+  "timestamp": "2025-10-02T13:01:38.475043",
+  "input_directory": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs",
+  "overall_stats": {
+    "total_vendors": 298,
+    "total_mibs": 4242,
+    "total_passed": 4130,
+    "total_failed": 112,
+    "vendors_100_percent": 271,
+    "vendors_90_percent_plus": 13,
+    "vendors_with_failures": 27
+  },
+  "vendor_results": {
+    "2n": {
+      "vendor": "2n",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "a10": {
+      "vendor": "a10",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "accedian": {
+      "vendor": "accedian",
+      "total": 16,
+      "passed": 16,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "adtran": {
+      "vendor": "adtran",
+      "total": 37,
+      "passed": 37,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "adva": {
+      "vendor": "adva",
+      "total": 70,
+      "passed": 51,
+      "failed": 19,
+      "success_rate": 72.85714285714285,
+      "errors": [
+        {
+          "mib": "CM-ALARM-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\CM-ALARM-MIB.py' load err..."
+        },
+        {
+          "mib": "CM-FACILITY-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\CM-FACILITY-MIB.py' load ..."
+        },
+        {
+          "mib": "CM-PERFORMANCE-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\CM-PERFORMANCE-MIB.py' lo..."
+        },
+        {
+          "mib": "CM-SA-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\CM-SA-MIB.py' load error:..."
+        },
+        {
+          "mib": "CM-SAT-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\CM-SAT-MIB.py' load error..."
+        },
+        {
+          "mib": "F3-CFM-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-CFM-MIB.py' load error..."
+        },
+        {
+          "mib": "F3-ELMI-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-ELMI-MIB.py' load erro..."
+        },
+        {
+          "mib": "F3-EOMPLS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-EOMPLS-MIB.py' load er..."
+        },
+        {
+          "mib": "F3-JDSU-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-JDSU-MIB.py' load erro..."
+        },
+        {
+          "mib": "F3-L3-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-L3-MIB.py' load error:..."
+        },
+        {
+          "mib": "F3-NTP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-NTP-MIB.py' load error..."
+        },
+        {
+          "mib": "F3-OTN-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-OTN-MIB.py' load error..."
+        },
+        {
+          "mib": "F3-PBB-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-PBB-MIB.py' load error..."
+        },
+        {
+          "mib": "F3-POPM-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-POPM-MIB.py' load erro..."
+        },
+        {
+          "mib": "F3-PORTMIRROR-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-PORTMIRROR-MIB.py' loa..."
+        },
+        {
+          "mib": "F3-PTP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-PTP-MIB.py' load error..."
+        },
+        {
+          "mib": "F3-PWE3-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-PWE3-MIB.py' load erro..."
+        },
+        {
+          "mib": "F3-SYNC-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-SYNC-MIB.py' load erro..."
+        },
+        {
+          "mib": "F3-SYNCJACK-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\adva\\F3-SYNCJACK-MIB.py' load ..."
+        }
+      ]
+    },
+    "advantech": {
+      "vendor": "advantech",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "aerohive": {
+      "vendor": "aerohive",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "airport": {
+      "vendor": "airport",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "alcatel": {
+      "vendor": "alcatel",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "alcoma": {
+      "vendor": "alcoma",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "algcom": {
+      "vendor": "algcom",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "allied": {
+      "vendor": "allied",
+      "total": 46,
+      "passed": 46,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "alpha": {
+      "vendor": "alpha",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "alpineoe": {
+      "vendor": "alpineoe",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "alvarion": {
+      "vendor": "alvarion",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "arista": {
+      "vendor": "arista",
+      "total": 17,
+      "passed": 17,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "arraynetworks": {
+      "vendor": "arraynetworks",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "arris": {
+      "vendor": "arris",
+      "total": 30,
+      "passed": 30,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "arubaos": {
+      "vendor": "arubaos",
+      "total": 46,
+      "passed": 38,
+      "failed": 8,
+      "success_rate": 82.6086956521739,
+      "errors": [
+        {
+          "mib": "ENTITY-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\arubaos\\ENTITY-MIB.py' load er..."
+        },
+        {
+          "mib": "ENTITY-SENSOR-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\arubaos\\ENTITY-SENSOR-MIB.py' ..."
+        },
+        {
+          "mib": "HC-RMON-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\arubaos\\HC-RMON-MIB.py' load e..."
+        },
+        {
+          "mib": "IEEE8023-LAG-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\arubaos\\IEEE8023-LAG-MIB.py' l..."
+        },
+        {
+          "mib": "LLDP-EXT-MED-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\arubaos\\LLDP-EXT-MED-MIB.py' l..."
+        },
+        {
+          "mib": "LLDP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\arubaos\\LLDP-MIB.py' load erro..."
+        },
+        {
+          "mib": "LLDP-V2-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\arubaos\\LLDP-V2-MIB.py' load e..."
+        },
+        {
+          "mib": "WLSX-TRAP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\arubaos\\WLSX-TRAP-MIB.py' load..."
+        }
+      ]
+    },
+    "arubaos-cx": {
+      "vendor": "arubaos-cx",
+      "total": 46,
+      "passed": 46,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ascom": {
+      "vendor": "ascom",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "asentria": {
+      "vendor": "asentria",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "audiocodes": {
+      "vendor": "audiocodes",
+      "total": 18,
+      "passed": 18,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "avaya": {
+      "vendor": "avaya",
+      "total": 13,
+      "passed": 13,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "avocent": {
+      "vendor": "avocent",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "avtech": {
+      "vendor": "avtech",
+      "total": 12,
+      "passed": 12,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "awplus": {
+      "vendor": "awplus",
+      "total": 39,
+      "passed": 39,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "axis": {
+      "vendor": "axis",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "barco": {
+      "vendor": "barco",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "barracuda": {
+      "vendor": "barracuda",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "bats": {
+      "vendor": "bats",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "bdcom": {
+      "vendor": "bdcom",
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "benuos": {
+      "vendor": "benuos",
+      "total": 24,
+      "passed": 24,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "bke": {
+      "vendor": "bke",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "bktel": {
+      "vendor": "bktel",
+      "total": 2,
+      "passed": 0,
+      "failed": 2,
+      "success_rate": 0.0,
+      "errors": [
+        {
+          "mib": "BKTEL-HFC862-BASE-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\bktel\\BKTEL-HFC862-BASE-MIB.py..."
+        },
+        {
+          "mib": "BKTEL-HFC862-BES-V01-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\bktel\\BKTEL-HFC862-BES-V01-MIB..."
+        }
+      ]
+    },
+    "bladeshelter": {
+      "vendor": "bladeshelter",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "bluecatnetworks": {
+      "vendor": "bluecatnetworks",
+      "total": 13,
+      "passed": 13,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "bluecoat": {
+      "vendor": "bluecoat",
+      "total": 25,
+      "passed": 25,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "broadworks": {
+      "vendor": "broadworks",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "brocade": {
+      "vendor": "brocade",
+      "total": 60,
+      "passed": 60,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "brother": {
+      "vendor": "brother",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "bti": {
+      "vendor": "bti",
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "calix": {
+      "vendor": "calix",
+      "total": 35,
+      "passed": 30,
+      "failed": 5,
+      "success_rate": 85.71428571428571,
+      "errors": [
+        {
+          "mib": "E5-110-AESCOMMON-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\calix\\E5-110-AESCOMMON-MIB.py'..."
+        },
+        {
+          "mib": "E5-110-AS-ATM-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\calix\\E5-110-AS-ATM-MIB.py' lo..."
+        },
+        {
+          "mib": "E5-110-IESCOMMON-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\calix\\E5-110-IESCOMMON-MIB.py'..."
+        },
+        {
+          "mib": "E5-110-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\calix\\E5-110-MIB.py' load erro..."
+        },
+        {
+          "mib": "E5-110-TRAPS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\calix\\E5-110-TRAPS-MIB.py' loa..."
+        }
+      ]
+    },
+    "cambium": {
+      "vendor": "cambium",
+      "total": 31,
+      "passed": 31,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "carel": {
+      "vendor": "carel",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "cdata": {
+      "vendor": "cdata",
+      "total": 26,
+      "passed": 24,
+      "failed": 2,
+      "success_rate": 92.3076923076923,
+      "errors": [
+        {
+          "mib": "EPON-EOC-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cdata\\EPON-EOC-MIB.py' load er..."
+        },
+        {
+          "mib": "FD-SYSTEM-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cdata\\FD-SYSTEM-MIB.py' load e..."
+        }
+      ]
+    },
+    "ceraos": {
+      "vendor": "ceraos",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "cet": {
+      "vendor": "cet",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "checkpoint": {
+      "vendor": "checkpoint",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ciena": {
+      "vendor": "ciena",
+      "total": 91,
+      "passed": 91,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "cisco": {
+      "vendor": "cisco",
+      "total": 302,
+      "passed": 288,
+      "failed": 14,
+      "success_rate": 95.36423841059603,
+      "errors": [
+        {
+          "mib": "CISCO-CEF-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCO-CEF-MIB.py' load e..."
+        },
+        {
+          "mib": "CISCO-ENTITY-ALARM-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCO-ENTITY-ALARM-MIB.p..."
+        },
+        {
+          "mib": "CISCO-SWITCH-ENGINE-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCO-SWITCH-ENGINE-MIB...."
+        },
+        {
+          "mib": "CISCOSB-BRIDGEMIBOBJECTS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-BRIDGEMIBOBJECTS..."
+        },
+        {
+          "mib": "CISCOSB-DHCP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-DHCP-MIB.py' loa..."
+        },
+        {
+          "mib": "CISCOSB-IPV6FHS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-IPV6FHS-MIB.py' ..."
+        },
+        {
+          "mib": "CISCOSB-POLICY-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-POLICY-MIB.py' l..."
+        },
+        {
+          "mib": "CISCOSB-QOS-CLI-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-QOS-CLI-MIB.py' ..."
+        },
+        {
+          "mib": "CISCOSB-QUEUE-STATISTICS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-QUEUE-STATISTICS..."
+        },
+        {
+          "mib": "CISCOSB-TRAPS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-TRAPS-MIB.py' lo..."
+        },
+        {
+          "mib": "CISCOSB-Tuning",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-Tuning.py' load ..."
+        },
+        {
+          "mib": "CISCOSB-rldot1q-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-rldot1q-MIB.py' ..."
+        },
+        {
+          "mib": "CISCOSB-vlan-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-vlan-MIB.py' loa..."
+        },
+        {
+          "mib": "CISCOSB-vlanVoice-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\cisco\\CISCOSB-vlanVoice-MIB.py..."
+        }
+      ]
+    },
+    "citrix": {
+      "vendor": "citrix",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "comet": {
+      "vendor": "comet",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "comware": {
+      "vendor": "comware",
+      "total": 205,
+      "passed": 205,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "controlbox": {
+      "vendor": "controlbox",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "corero": {
+      "vendor": "corero",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "cradlepoint": {
+      "vendor": "cradlepoint",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ctm": {
+      "vendor": "ctm",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "cts": {
+      "vendor": "cts",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "cumulus": {
+      "vendor": "cumulus",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "cyberpower": {
+      "vendor": "cyberpower",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "dantel": {
+      "vendor": "dantel",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "dantherm": {
+      "vendor": "dantherm",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "dasan": {
+      "vendor": "dasan",
+      "total": 81,
+      "passed": 80,
+      "failed": 1,
+      "success_rate": 98.76543209876543,
+      "errors": [
+        {
+          "mib": "DASAN-ACCESS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\dasan\\DASAN-ACCESS-MIB.py' loa..."
+        }
+      ]
+    },
+    "datacom": {
+      "vendor": "datacom",
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "dataprobe": {
+      "vendor": "dataprobe",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ddn": {
+      "vendor": "ddn",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "deliberant": {
+      "vendor": "deliberant",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "dell": {
+      "vendor": "dell",
+      "total": 68,
+      "passed": 68,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "delta": {
+      "vendor": "delta",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "deltanet": {
+      "vendor": "deltanet",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "deva": {
+      "vendor": "deva",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "dkt": {
+      "vendor": "dkt",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "dlink": {
+      "vendor": "dlink",
+      "total": 88,
+      "passed": 87,
+      "failed": 1,
+      "success_rate": 98.86363636363636,
+      "errors": [
+        {
+          "mib": "DLINKSW-DDP-CLIENT-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\dlink\\DLINKSW-DDP-CLIENT-MIB.p..."
+        }
+      ]
+    },
+    "dlink_dgs1250": {
+      "vendor": "dlink_dgs1250",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "dpstelecom": {
+      "vendor": "dpstelecom",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "dragonwave": {
+      "vendor": "dragonwave",
+      "total": 13,
+      "passed": 11,
+      "failed": 2,
+      "success_rate": 84.61538461538461,
+      "errors": [
+        {
+          "mib": "DRAGONWAVE-HORIZON-IDU-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\dragonwave\\DRAGONWAVE-HORIZON-..."
+        },
+        {
+          "mib": "HORIZON-ODU-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\dragonwave\\HORIZON-ODU-MIB.py'..."
+        }
+      ]
+    },
+    "eaton": {
+      "vendor": "eaton",
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "edfa": {
+      "vendor": "edfa",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "edgecos": {
+      "vendor": "edgecos",
+      "total": 23,
+      "passed": 23,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "edgeswitch": {
+      "vendor": "edgeswitch",
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "efficientip": {
+      "vendor": "efficientip",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ekinops": {
+      "vendor": "ekinops",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "eltek": {
+      "vendor": "eltek",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "eltex": {
+      "vendor": "eltex",
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "eltexmes21xx": {
+      "vendor": "eltexmes21xx",
+      "total": 19,
+      "passed": 19,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "eltexmes23xx": {
+      "vendor": "eltexmes23xx",
+      "total": 21,
+      "passed": 20,
+      "failed": 1,
+      "success_rate": 95.23809523809523,
+      "errors": [
+        {
+          "mib": "ELTEX-MES-PHYSICAL-DESCRIPTION-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\eltexmes23xx\\ELTEX-MES-PHYSICA..."
+        }
+      ]
+    },
+    "eltexmes24xx": {
+      "vendor": "eltexmes24xx",
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "emc": {
+      "vendor": "emc",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "emerson": {
+      "vendor": "emerson",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "endace": {
+      "vendor": "endace",
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "endrun": {
+      "vendor": "endrun",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "enlogic": {
+      "vendor": "enlogic",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "enterasys": {
+      "vendor": "enterasys",
+      "total": 134,
+      "passed": 131,
+      "failed": 3,
+      "success_rate": 97.76119402985076,
+      "errors": [
+        {
+          "mib": "CTRON-DLSW-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\enterasys\\CTRON-DLSW-MIB.py' l..."
+        },
+        {
+          "mib": "CTRON-IPX-ROUTER-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\enterasys\\CTRON-IPX-ROUTER-MIB..."
+        },
+        {
+          "mib": "CTRON-TRANSLATION-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\enterasys\\CTRON-TRANSLATION-MI..."
+        }
+      ]
+    },
+    "equallogic": {
+      "vendor": "equallogic",
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ericsson": {
+      "vendor": "ericsson",
+      "total": 37,
+      "passed": 37,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "esphome": {
+      "vendor": "esphome",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ewc": {
+      "vendor": "ewc",
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "exagrid": {
+      "vendor": "exagrid",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "exalink-fusion": {
+      "vendor": "exalink-fusion",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "exalt": {
+      "vendor": "exalt",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "extrahop": {
+      "vendor": "extrahop",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "extreme": {
+      "vendor": "extreme",
+      "total": 64,
+      "passed": 61,
+      "failed": 3,
+      "success_rate": 95.3125,
+      "errors": [
+        {
+          "mib": "BROCADE-INTERFACE-STATS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\extreme\\BROCADE-INTERFACE-STAT..."
+        },
+        {
+          "mib": "BROCADE-MODULE-CPU-UTIL-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\extreme\\BROCADE-MODULE-CPU-UTI..."
+        },
+        {
+          "mib": "BROCADE-MODULE-MEM-UTIL-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\extreme\\BROCADE-MODULE-MEM-UTI..."
+        }
+      ]
+    },
+    "f5": {
+      "vendor": "f5",
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "fiberhome": {
+      "vendor": "fiberhome",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "fibrolan": {
+      "vendor": "fibrolan",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "firebrick": {
+      "vendor": "firebrick",
+      "total": 8,
+      "passed": 7,
+      "failed": 1,
+      "success_rate": 87.5,
+      "errors": [
+        {
+          "mib": "FIREBRICK-GLOBAL",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\firebrick\\FIREBRICK-GLOBAL.py'..."
+        }
+      ]
+    },
+    "forcepoint": {
+      "vendor": "forcepoint",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "fortinet": {
+      "vendor": "fortinet",
+      "total": 43,
+      "passed": 43,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "foundry": {
+      "vendor": "foundry",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "fs": {
+      "vendor": "fs",
+      "total": 31,
+      "passed": 31,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "fujitsu": {
+      "vendor": "fujitsu",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "success_rate": 0.0,
+      "errors": [
+        {
+          "mib": "FSC-SERVERCONTROL2-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\fujitsu\\FSC-SERVERCONTROL2-MIB..."
+        }
+      ]
+    },
+    "gamatronic": {
+      "vendor": "gamatronic",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "geist": {
+      "vendor": "geist",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "gemds": {
+      "vendor": "gemds",
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "gepower": {
+      "vendor": "gepower",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "gigamon": {
+      "vendor": "gigamon",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "glassway": {
+      "vendor": "glassway",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "grandstream": {
+      "vendor": "grandstream",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "greenbone": {
+      "vendor": "greenbone",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "gude": {
+      "vendor": "gude",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "gwd": {
+      "vendor": "gwd",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "halon": {
+      "vendor": "halon",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "haproxy": {
+      "vendor": "haproxy",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "himoinsa": {
+      "vendor": "himoinsa",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "hitachi": {
+      "vendor": "hitachi",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "hp": {
+      "vendor": "hp",
+      "total": 47,
+      "passed": 47,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "hpmsm": {
+      "vendor": "hpmsm",
+      "total": 34,
+      "passed": 34,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "huawei": {
+      "vendor": "huawei",
+      "total": 11,
+      "passed": 11,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "hwg": {
+      "vendor": "hwg",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "hytera": {
+      "vendor": "hytera",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ibm": {
+      "vendor": "ibm",
+      "total": 47,
+      "passed": 39,
+      "failed": 8,
+      "success_rate": 82.97872340425532,
+      "errors": [
+        {
+          "mib": "IBM-ENETDISPATCHER-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ibm\\IBM-ENETDISPATCHER-MIB.py'..."
+        },
+        {
+          "mib": "IBM-INTERFACE-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ibm\\IBM-INTERFACE-MIB.py' load..."
+        },
+        {
+          "mib": "IBM-TN3270E-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ibm\\IBM-TN3270E-MIB.py' load e..."
+        },
+        {
+          "mib": "IBMESCON-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ibm\\IBMESCON-MIB.py' load erro..."
+        },
+        {
+          "mib": "IBMESCONCUB-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ibm\\IBMESCONCUB-MIB.py' load e..."
+        },
+        {
+          "mib": "IBMFRBRS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ibm\\IBMFRBRS-MIB.py' load erro..."
+        },
+        {
+          "mib": "IBMIROCDIALOUT-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ibm\\IBMIROCDIALOUT-MIB.py' loa..."
+        },
+        {
+          "mib": "IBMIROCRLAN-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ibm\\IBMIROCRLAN-MIB.py' load e..."
+        }
+      ]
+    },
+    "icotera": {
+      "vendor": "icotera",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "icr-os": {
+      "vendor": "icr-os",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ict": {
+      "vendor": "ict",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ifotec": {
+      "vendor": "ifotec",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "imco": {
+      "vendor": "imco",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "infinera": {
+      "vendor": "infinera",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "infoblox": {
+      "vendor": "infoblox",
+      "total": 4,
+      "passed": 3,
+      "failed": 1,
+      "success_rate": 75.0,
+      "errors": [
+        {
+          "mib": "IB-PLATFORMONE-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\infoblox\\IB-PLATFORMONE-MIB.py..."
+        }
+      ]
+    },
+    "innovaphone": {
+      "vendor": "innovaphone",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "inovonics": {
+      "vendor": "inovonics",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "inteno": {
+      "vendor": "inteno",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ionodes": {
+      "vendor": "ionodes",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ipinfusion": {
+      "vendor": "ipinfusion",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "iqnos": {
+      "vendor": "iqnos",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "success_rate": 0.0,
+      "errors": [
+        {
+          "mib": "INFINERA-REG-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\iqnos\\INFINERA-REG-MIB.py' loa..."
+        }
+      ]
+    },
+    "ixia": {
+      "vendor": "ixia",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ixsystems": {
+      "vendor": "ixsystems",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "janitza": {
+      "vendor": "janitza",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "juniper": {
+      "vendor": "juniper",
+      "total": 23,
+      "passed": 22,
+      "failed": 1,
+      "success_rate": 95.65217391304348,
+      "errors": [
+        {
+          "mib": "IEEE8023-LAG-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\juniper\\IEEE8023-LAG-MIB.py' l..."
+        }
+      ]
+    },
+    "junos": {
+      "vendor": "junos",
+      "total": 226,
+      "passed": 226,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "junose": {
+      "vendor": "junose",
+      "total": 184,
+      "passed": 184,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "kemp": {
+      "vendor": "kemp",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "lancom": {
+      "vendor": "lancom",
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "lantronix": {
+      "vendor": "lantronix",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "lenovo": {
+      "vendor": "lenovo",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ligoos": {
+      "vendor": "ligoos",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "linksys": {
+      "vendor": "linksys",
+      "total": 108,
+      "passed": 106,
+      "failed": 2,
+      "success_rate": 98.14814814814815,
+      "errors": [
+        {
+          "mib": "LINKSYS-DOT1X-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\linksys\\LINKSYS-DOT1X-MIB.py' ..."
+        },
+        {
+          "mib": "LINKSYS-STACK-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\linksys\\LINKSYS-STACK-MIB.py' ..."
+        }
+      ]
+    },
+    "logmaster": {
+      "vendor": "logmaster",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "loop-telecom": {
+      "vendor": "loop-telecom",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "maipu": {
+      "vendor": "maipu",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "mcafee": {
+      "vendor": "mcafee",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "meinberg": {
+      "vendor": "meinberg",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "microsemi": {
+      "vendor": "microsemi",
+      "total": 3,
+      "passed": 2,
+      "failed": 1,
+      "success_rate": 66.66666666666666,
+      "errors": [
+        {
+          "mib": "SYMM-SMI",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\microsemi\\SYMM-SMI.py' load er..."
+        }
+      ]
+    },
+    "microsoft": {
+      "vendor": "microsoft",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "mikrotik": {
+      "vendor": "mikrotik",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "mimosa": {
+      "vendor": "mimosa",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "mitel": {
+      "vendor": "mitel",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "mitsubishi": {
+      "vendor": "mitsubishi",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "mni": {
+      "vendor": "mni",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "morningstar": {
+      "vendor": "morningstar",
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "moxa": {
+      "vendor": "moxa",
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "mpb": {
+      "vendor": "mpb",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "mrv": {
+      "vendor": "mrv",
+      "total": 36,
+      "passed": 36,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "netbotz": {
+      "vendor": "netbotz",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "netelastic": {
+      "vendor": "netelastic",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "netgear": {
+      "vendor": "netgear",
+      "total": 14,
+      "passed": 14,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "netonix": {
+      "vendor": "netonix",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "netping": {
+      "vendor": "netping",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "nimble": {
+      "vendor": "nimble",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "nokia": {
+      "vendor": "nokia",
+      "total": 201,
+      "passed": 196,
+      "failed": 5,
+      "success_rate": 97.51243781094527,
+      "errors": [
+        {
+          "mib": "ALCATEL-IND1-ISIS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\nokia\\ALCATEL-IND1-ISIS-MIB.py..."
+        },
+        {
+          "mib": "ALCATEL-IND1-LLDP-MED-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\nokia\\ALCATEL-IND1-LLDP-MED-MI..."
+        },
+        {
+          "mib": "ALCATEL-IND1-PORT-MAPPING",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\nokia\\ALCATEL-IND1-PORT-MAPPIN..."
+        },
+        {
+          "mib": "ALCATEL-ISIS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\nokia\\ALCATEL-ISIS-MIB.py' loa..."
+        },
+        {
+          "mib": "ASAM-TC-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\nokia\\ASAM-TC-MIB.py' load err..."
+        }
+      ]
+    },
+    "nortel": {
+      "vendor": "nortel",
+      "total": 23,
+      "passed": 23,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "nti": {
+      "vendor": "nti",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "nutanix-aos": {
+      "vendor": "nutanix-aos",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "omnitron": {
+      "vendor": "omnitron",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "oneaccess": {
+      "vendor": "oneaccess",
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "openaccess": {
+      "vendor": "openaccess",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "openbsd": {
+      "vendor": "openbsd",
+      "total": 14,
+      "passed": 14,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "opengear": {
+      "vendor": "opengear",
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "osnexus": {
+      "vendor": "osnexus",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "packetflux": {
+      "vendor": "packetflux",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "packetlight": {
+      "vendor": "packetlight",
+      "total": 35,
+      "passed": 35,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "paloaltonetworks": {
+      "vendor": "paloaltonetworks",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "panduit": {
+      "vendor": "panduit",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "papouch": {
+      "vendor": "papouch",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "pbi": {
+      "vendor": "pbi",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "pbn": {
+      "vendor": "pbn",
+      "total": 9,
+      "passed": 7,
+      "failed": 2,
+      "success_rate": 77.77777777777779,
+      "errors": [
+        {
+          "mib": "NMS-MEMORY-POOL-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\pbn\\NMS-MEMORY-POOL-MIB.py' lo..."
+        },
+        {
+          "mib": "NMS-QOS-PIB-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\pbn\\NMS-QOS-PIB-MIB.py' load e..."
+        }
+      ]
+    },
+    "pegasus": {
+      "vendor": "pegasus",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "peplink": {
+      "vendor": "peplink",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "pfsense": {
+      "vendor": "pfsense",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "picos": {
+      "vendor": "picos",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "planet": {
+      "vendor": "planet",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "polycom": {
+      "vendor": "polycom",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "positron": {
+      "vendor": "positron",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "poweralert": {
+      "vendor": "poweralert",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "primekey": {
+      "vendor": "primekey",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "procera": {
+      "vendor": "procera",
+      "total": 11,
+      "passed": 11,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "profline": {
+      "vendor": "profline",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "protelevision": {
+      "vendor": "protelevision",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "pulse": {
+      "vendor": "pulse",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "qnap": {
+      "vendor": "qnap",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "quanta": {
+      "vendor": "quanta",
+      "total": 18,
+      "passed": 18,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "radlan": {
+      "vendor": "radlan",
+      "total": 55,
+      "passed": 53,
+      "failed": 2,
+      "success_rate": 96.36363636363636,
+      "errors": [
+        {
+          "mib": "RADLAN-STACK-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\radlan\\RADLAN-STACK-MIB.py' lo..."
+        },
+        {
+          "mib": "RADLAN-vlan-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\radlan\\RADLAN-vlan-MIB.py' loa..."
+        }
+      ]
+    },
+    "radware": {
+      "vendor": "radware",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "radwin": {
+      "vendor": "radwin",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "raisecom": {
+      "vendor": "raisecom",
+      "total": 15,
+      "passed": 14,
+      "failed": 1,
+      "success_rate": 93.33333333333333,
+      "errors": [
+        {
+          "mib": "RAISECOM-PONSERIES-TC",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\raisecom\\RAISECOM-PONSERIES-TC..."
+        }
+      ]
+    },
+    "rajant": {
+      "vendor": "rajant",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "raritan": {
+      "vendor": "raritan",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ray": {
+      "vendor": "ray",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "redlion": {
+      "vendor": "redlion",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ribbon": {
+      "vendor": "ribbon",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "riedo": {
+      "vendor": "riedo",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "riello": {
+      "vendor": "riello",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "rittal": {
+      "vendor": "rittal",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "riverbed": {
+      "vendor": "riverbed",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ros": {
+      "vendor": "ros",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "rs": {
+      "vendor": "rs",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ruckus": {
+      "vendor": "ruckus",
+      "total": 25,
+      "passed": 25,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ruijie": {
+      "vendor": "ruijie",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "rutos": {
+      "vendor": "rutos",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "saf": {
+      "vendor": "saf",
+      "total": 11,
+      "passed": 11,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "sagemcom": {
+      "vendor": "sagemcom",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "samlex": {
+      "vendor": "samlex",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "schleifenbauer": {
+      "vendor": "schleifenbauer",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "schneider": {
+      "vendor": "schneider",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "screenos": {
+      "vendor": "screenos",
+      "total": 46,
+      "passed": 46,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "seagate": {
+      "vendor": "seagate",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "seh": {
+      "vendor": "seh",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "sensatronics": {
+      "vendor": "sensatronics",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "sentry": {
+      "vendor": "sentry",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "serverscheck": {
+      "vendor": "serverscheck",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "siae": {
+      "vendor": "siae",
+      "total": 40,
+      "passed": 40,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "siemens": {
+      "vendor": "siemens",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "siklu": {
+      "vendor": "siklu",
+      "total": 17,
+      "passed": 17,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "silverpeak": {
+      "vendor": "silverpeak",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "sinetica": {
+      "vendor": "sinetica",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "skyhigh": {
+      "vendor": "skyhigh",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "smartoptics": {
+      "vendor": "smartoptics",
+      "total": 12,
+      "passed": 12,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "snr": {
+      "vendor": "snr",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "socomec": {
+      "vendor": "socomec",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "solidoptics": {
+      "vendor": "solidoptics",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "sonicwall": {
+      "vendor": "sonicwall",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "stormshield": {
+      "vendor": "stormshield",
+      "total": 13,
+      "passed": 13,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "supermicro": {
+      "vendor": "supermicro",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "synology": {
+      "vendor": "synology",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "tachyon": {
+      "vendor": "tachyon",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "tait": {
+      "vendor": "tait",
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "tegile": {
+      "vendor": "tegile",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "telco-systems": {
+      "vendor": "telco-systems",
+      "total": 24,
+      "passed": 24,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "teldat": {
+      "vendor": "teldat",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "teleste": {
+      "vendor": "teleste",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "teltonika": {
+      "vendor": "teltonika",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "teracom": {
+      "vendor": "teracom",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "terra": {
+      "vendor": "terra",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "toshiba": {
+      "vendor": "toshiba",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "tplink": {
+      "vendor": "tplink",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "transition": {
+      "vendor": "transition",
+      "total": 93,
+      "passed": 80,
+      "failed": 13,
+      "success_rate": 86.02150537634408,
+      "errors": [
+        {
+          "mib": "TN-DDMI-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-DDMI-MIB.py' loa..."
+        },
+        {
+          "mib": "TN-DEV-SYS-IP2-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-DEV-SYS-IP2-MIB...."
+        },
+        {
+          "mib": "TN-DEV-SYS-IPMGMT-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-DEV-SYS-IPMGMT-M..."
+        },
+        {
+          "mib": "TN-DHCP-SERVER-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-DHCP-SERVER-MIB...."
+        },
+        {
+          "mib": "TN-DHCP-SNOOPING-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-DHCP-SNOOPING-MI..."
+        },
+        {
+          "mib": "TN-HQOS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-HQOS-MIB.py' loa..."
+        },
+        {
+          "mib": "TN-LACP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-LACP-MIB.py' loa..."
+        },
+        {
+          "mib": "TN-LLDP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-LLDP-MIB.py' loa..."
+        },
+        {
+          "mib": "TN-MPLS-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-MPLS-MIB.py' loa..."
+        },
+        {
+          "mib": "TN-PTP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-PTP-MIB.py' load..."
+        },
+        {
+          "mib": "TN-SYNCE-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-SYNCE-MIB.py' lo..."
+        },
+        {
+          "mib": "TN-UDLD-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-UDLD-MIB.py' loa..."
+        },
+        {
+          "mib": "TN-ZERO-TOUCH-PROVISION-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\transition\\TN-ZERO-TOUCH-PROVI..."
+        }
+      ]
+    },
+    "tredess": {
+      "vendor": "tredess",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "trellix": {
+      "vendor": "trellix",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "tycon": {
+      "vendor": "tycon",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ubiquoss": {
+      "vendor": "ubiquoss",
+      "total": 32,
+      "passed": 21,
+      "failed": 11,
+      "success_rate": 65.625,
+      "errors": [
+        {
+          "mib": "UBIQUOSS-INTERFACE-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBIQUOSS-INTERFACE-MI..."
+        },
+        {
+          "mib": "UBIQUOSS-MAC-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBIQUOSS-MAC-MIB.py' ..."
+        },
+        {
+          "mib": "UBIQUOSS-SYSINFO-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBIQUOSS-SYSINFO-MIB...."
+        },
+        {
+          "mib": "UBQS-CONFIG-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBQS-CONFIG-MIB.py' l..."
+        },
+        {
+          "mib": "UBQS-DHCP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBQS-DHCP-MIB.py' loa..."
+        },
+        {
+          "mib": "UBQS-MISC-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBQS-MISC-MIB.py' loa..."
+        },
+        {
+          "mib": "UBQS-MPLS-LDP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBQS-MPLS-LDP-MIB.py'..."
+        },
+        {
+          "mib": "UBQS-MULTICAST-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBQS-MULTICAST-MIB.py..."
+        },
+        {
+          "mib": "UBQS-SNMP-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBQS-SNMP-MIB.py' loa..."
+        },
+        {
+          "mib": "UBQS-SYSRSC-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBQS-SYSRSC-MIB.py' l..."
+        },
+        {
+          "mib": "UBQS-SYSTEM-MIB",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\ubiquoss\\UBQS-SYSTEM-MIB.py' l..."
+        }
+      ]
+    },
+    "ubnt": {
+      "vendor": "ubnt",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "ucopia": {
+      "vendor": "ucopia",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "uhp": {
+      "vendor": "uhp",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "unitrends": {
+      "vendor": "unitrends",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "veeam": {
+      "vendor": "veeam",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "venturi": {
+      "vendor": "venturi",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "vertiv": {
+      "vendor": "vertiv",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "vigintos": {
+      "vendor": "vigintos",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "viprinet": {
+      "vendor": "viprinet",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "viptela": {
+      "vendor": "viptela",
+      "total": 18,
+      "passed": 18,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "vmware": {
+      "vendor": "vmware",
+      "total": 32,
+      "passed": 32,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "volius": {
+      "vendor": "volius",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "vutlan": {
+      "vendor": "vutlan",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "watchguard": {
+      "vendor": "watchguard",
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "waystream": {
+      "vendor": "waystream",
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "westermo": {
+      "vendor": "westermo",
+      "total": 19,
+      "passed": 19,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "westmountainradio": {
+      "vendor": "westmountainradio",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "wis": {
+      "vendor": "wis",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "wisi": {
+      "vendor": "wisi",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "witchos": {
+      "vendor": "witchos",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "worldcastsystems": {
+      "vendor": "worldcastsystems",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "wti": {
+      "vendor": "wti",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "wut": {
+      "vendor": "wut",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "xirrus_aos": {
+      "vendor": "xirrus_aos",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "zebra": {
+      "vendor": "zebra",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "zhone": {
+      "vendor": "zhone",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "zte": {
+      "vendor": "zte",
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "success_rate": 100.0,
+      "errors": []
+    },
+    "zyxel": {
+      "vendor": "zyxel",
+      "total": 24,
+      "passed": 23,
+      "failed": 1,
+      "success_rate": 95.83333333333334,
+      "errors": [
+        {
+          "mib": "ZYXEL-ES-WIRELESS",
+          "error": "MIB module 'C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs\\zyxel\\ZYXEL-ES-WIRELESS.py' lo..."
+        }
+      ]
+    }
+  }
+}

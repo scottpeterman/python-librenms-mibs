@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-10-02T11:19:00.744488",
+  "stats": {
+    "total": 25,
+    "compiled": 17,
+    "failed": 6,
+    "skipped": 2,
+    "errors": [
+      {
+        "mib": "WLSX-MESH-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "WLSX-RS-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "WLSX-USER-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "WLSX-USER6-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "WLSX-VOICE-MIB",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "WLSX-WLAN-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-10-02T11:39:01.138965",
+  "stats": {
+    "total": 11,
+    "compiled": 4,
+    "failed": 7,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "ECS4100-52T-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ECS4110-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ECS4210-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ECS4610-24F-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ES3510MA-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ES3528MO-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "ES3528MV2-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

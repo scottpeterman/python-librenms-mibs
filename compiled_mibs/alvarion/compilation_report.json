@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-02T11:17:49.269273",
+  "stats": {
+    "total": 2,
+    "compiled": 1,
+    "failed": 1,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "ALVARION-DOT11-WLAN-TST-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

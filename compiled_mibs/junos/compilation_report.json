@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-10-02T12:05:27.379435",
+  "stats": {
+    "total": 194,
+    "compiled": 164,
+    "failed": 5,
+    "skipped": 25,
+    "errors": [
+      {
+        "mib": "GGSN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "JUNIPER-TLB-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "JUNIPER-USERFIREWALL-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "JUNIPER-WIRELESS-WAN-MIB",
+        "error": "failed"
+      },
+      {
+        "mib": "JUNIPER-WLAN-WAP-MIB",
+        "error": "failed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}

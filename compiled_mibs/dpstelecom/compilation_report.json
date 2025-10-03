@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-10-02T11:38:24.620512",
+  "stats": {
+    "total": 5,
+    "compiled": 2,
+    "failed": 3,
+    "skipped": 0,
+    "errors": [
+      {
+        "mib": "DPS-MIB-V38",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "DPS-MIB-V38-V2",
+        "error": "unprocessed"
+      },
+      {
+        "mib": "DPS-TEXT-RTU-MIB",
+        "error": "unprocessed"
+      }
+    ]
+  },
+  "output_dir": "C:\\Users\\speterman\\PycharmProjects\\lnmpcomp\\compiled_mibs"
+}
